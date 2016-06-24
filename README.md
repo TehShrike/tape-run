@@ -7,7 +7,7 @@ a (headless) browser and returns 0/1 as exit code, so you can use it as your
 
 [![build status](https://secure.travis-ci.org/juliangruber/tape-run.svg)](http://travis-ci.org/juliangruber/tape-run)
 [![downloads](https://img.shields.io/npm/dm/tape-run.svg)](https://www.npmjs.org/package/tape-run)
-
+o
 ## Usage
 
 First write a test utilizing [tape](https://github.com/substack/tape) and save
@@ -92,6 +92,8 @@ on `http://localhost:<port>` and tests will be run there.
   * `ie`
   * `phantom`
   * `safari`
+
+...or any of the [other options you can pass to browser-run](https://github.com/juliangruber/browser-run#runopts).
 
 The **CLI** takes the same arguments, plus `--render` (see blow):
 
